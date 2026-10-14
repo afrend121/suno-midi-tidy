@@ -1,0 +1,6 @@
+# suno-midi-tidy 运行依赖
+# 只有 numpy 与 pretty_midi 是必需的；scipy / soundfile 缺失时会自动降级。
+numpy>=1.24
+pretty_midi>=0.2.10
+soundfile>=0.12.1
+scipy>=1.10
